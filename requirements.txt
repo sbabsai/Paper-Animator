@@ -1,0 +1,25 @@
+# Paper Animator - PDF to Video Converter
+# Core Dependencies
+
+# PDF processing
+PyMuPDF==1.26.3
+
+# Image processing
+Pillow>=9.0.0
+numpy>=1.20.0
+
+# Video processing
+moviepy>=1.0.3
+
+# Audio processing for preview
+pygame>=2.0.0
+
+# Modern GUI framework
+customtkinter>=5.2.0
+
+# GUI framework (included with Python)
+# tkinter (built-in)
+
+# Optional: For enhanced functionality
+# opencv-python>=4.5.0  # For advanced video processing
+# scipy>=1.7.0          # For advanced image processing
