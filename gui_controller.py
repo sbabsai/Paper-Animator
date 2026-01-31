@@ -131,7 +131,7 @@ class ModernButton(ctk.CTkButton):
                 transform="scale(1.02)"
             )
             
-def on_leave(event):
+        def on_leave(event):
             self.configure(
                 fg_color=self.original_fg_color,
                 hover_color=self.original_hover_color,
@@ -153,7 +153,7 @@ class GlassPanel(ctk.CTkFrame):
         
         super().__init__(*args, **kwargs)
         
-        self.configure(border_color=כל("#404040", "#404040"))
+        self.configure(border_color=("#404040", "#404040"))
         self.configure(border_width=1)
 
 
