@@ -1,11 +1,11 @@
-# Paper Animator - Cinematic Edition
+# Paper Animator
 
-A production-ready tool to convert PDF text into animated videos with professional visual effects. This application allows you to search for text within PDF documents and generate cinematic animations where each occurrence of the text is highlighted and presented in a video sequence.
+A production-ready tool to convert PDF text into animated videos with professional visual effects. This application allows you to search for text within PDF documents and generate animations where each occurrence of the text is highlighted and presented in a video sequence.
 
 ## Features
 
 - **PDF Text Search**: Automatically finds all occurrences of specific text across multiple PDF files.
-- **Cinematic Visual Effects**:
+- **Visual Effects**:
   - Realistic Text Highlighting
   - Chromatic Aberration
   - Paper Texture Overlay

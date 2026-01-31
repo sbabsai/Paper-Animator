@@ -162,7 +162,7 @@ class GUIController:
     
     def __init__(self, root: ctk.CTk):
         self.root = root
-        self.root.title("Paper Animator - Cinematic Edition")
+        self.root.title("Paper Animator")
         
         ctk.set_appearance_mode("dark")
         ctk.set_default_color_theme("dark-blue")
@@ -398,7 +398,7 @@ class GUIController:
         
         self.subtitle_label = ctk.CTkLabel(
             title_frame,
-            text="Cinematic PDF Text Animation Studio",
+            text="PDF Text Animation Studio",
             font=ctk.CTkFont(size=subtitle_size),
             text_color="#a0a0a0"
         )
@@ -728,7 +728,7 @@ class GUIController:
         
         self.lbl_status = ctk.CTkLabel(
             status_frame,
-            text="🎯 Ready to create cinematic animations",
+            text="🎯 Ready to create animations",
             font=ctk.CTkFont(size=status_font_size),
             text_color="#a0a0a0"
         )

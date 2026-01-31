@@ -9,7 +9,7 @@ Usage:
     python main.py
 
 Author: Your Name
-Version: 2.0.0 - Cinematic Edition
+Version: 2.0.0
 """
 
 import sys
@@ -111,7 +111,7 @@ def main():
         
         root.protocol("WM_DELETE_WINDOW", on_closing)
         
-        logger.info("Starting Paper Animator - Cinematic Edition...")
+        logger.info("Starting Paper Animator...")
         root.mainloop()
         
     except KeyboardInterrupt:
