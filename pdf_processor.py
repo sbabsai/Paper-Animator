@@ -66,12 +66,15 @@ class PDFProcessor:
         
         effects = EffectsProcessor()
         
+        # Check if this is a preview (lower quality for speed)
+        is_preview = settings.get('preview_mode', False)
+        
         orientation = settings.get('orientation', '16:9')
         if orientation == '16:9':
-            target_w, target_h = 1920, 1080
+            target_w, target_h = (960, 540) if is_preview else (1920, 1080)
             aspect_ratio = 1920 / 1080
         else:
-            target_w, target_h = 1080, 1920
+            target_w, target_h = (540, 960) if is_preview else (1080, 1920)
             aspect_ratio = 1080 / 1920
 
         text_width = rect.x1 - rect.x0

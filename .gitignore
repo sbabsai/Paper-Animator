@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.mp4
+*.pdf
+*.wav
+*.mp3
+output/
+temp/
+__pycache__/config_manager.cpython-311.pyc
+__pycache__/effects_processor.cpython-311.pyc
+__pycache__/gui_controller.cpython-311.pyc
+__pycache__/video_renderer.cpython-311.pyc
+__pycache__/pdf_processor.cpython-311.pyc

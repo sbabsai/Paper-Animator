@@ -75,6 +75,13 @@ def main():
     """Main entry point for the application"""
     logger = setup_logging()
     
+    # Check for CLI mode
+    if len(sys.argv) > 1 and sys.argv[1] in ['--cli', '-c', 'cli']:
+        from cli_mode import run_cli_mode
+        run_cli_mode()
+        input("\nPress Enter to exit...")
+        return
+    
     if not check_dependencies():
         input("Press Enter to exit...")
         sys.exit(1)
